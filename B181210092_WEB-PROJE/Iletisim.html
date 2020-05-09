@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="iletisim.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <title>Document</title>
+  
+</head>
+<div class=" ">
+
+    <body class="bg-dark bg ">
+
+      
+    <nav class="navbar bg-dark navbar-dark text-white  navbar-expand-lg fixed-top  ">
+
+        <a href="/" class="class-brand  ">
+            <i class="fas fa-university "></i>
+        </a>
+
+
+        <div class=" container-flush   ">
+
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+
+                <span class="navbar-toggler-icon ">
+
+                </span>
+
+            </button>
+
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+              
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item  ">
+                        <a class="nav-link active " href="index.html">
+                            <i class="fas fa-graduation-cap "></i>Hakkımda</a>
+
+                    </li>
+
+                    <li class="nav-item  ml-2"><a class="nav-link active " href=" Sehrim.html">
+                            <i class="fas fa-city"></i>Şehrim</a></li>
+
+                    <li class="nav-item ml-2"><a class="nav-link active" href="Mirasimiz.html"><i class="fas fa-mosque"></i>Mirasımız</a></li>
+
+                    <li class="nav-item  ml-2"><a class="nav-link active" href="Iletisim.html"><i class="fas fa-mail-bulk"></i>İletişim</a></li>
+
+                    <li class="nav-item ml-2"><a class="nav-link active" href="Giris.html"><i class="fas fa-sign-in-alt"></i>Giriş</a></li>
+
+                    <li class="nav-item ml-2"><a class="nav-link active" href="CV.html"><i class="fas fa-scroll"></i>CV </a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+        <div class="row mt-5">
+
+            <div name="container2" class="container">
+
+
+
+                <form action="iletisim.php" name= "frm1"  class="  " method="post" onsubmit="return isValid(this)" >
+
+                    <div class="row">
+
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="form-group ">
+                                <label class="h4 text-primary" for="name">Name & LastName</label>
+                                <input onclick="ad_kontrol()" type="text" name="names" id="first_name" class="form-control " placeholder="İsim ve Soyisim" >
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="form-group">
+                                <label class="h4 text-primary" for="email">Email</label>
+                                <input type="email" name="emails" id="email" class="form-control " placeholder="Enter Mail" >
+
+                                <small class="form-text text-muted">please enter correct mail adress</small>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="form-group">
+                                <label class="h4 text-primary" for="Password">Password</label>
+                                <input type="password" id="Password" class="form-control " name="passwords" placeholder="Enter Password" >
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="form-group">
+                                <label class="h4 text-primary" for="city">City</label>
+                                <select name="city" id="city" class="form-control" required>
+                                    <option value="Kocaeli">Kocaeli</option>
+                                    <option value="İstanbul">İstanbul</option>
+                                    <option value="Manisa">Manisa</option>
+                                    <option value="izmir">izmir</option>
+                                    <option value="Ankara">Ankara</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+
+                            <div id="rates" class="form-group">
+                                <label class="h4 text-primary" for="check">Cinsiyet </label>
+                                <br>
+                                <input name="cinsiyet" type="radio" id="erkek" value="erkek" checked>
+                                <label for="erkek">erkek</label><br>
+                                <input name="cinsiyet" type="radio" id="kadın" value="kadin">
+                                <label for="Kadın">Kadın</label><br>
+
+
+
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div id="boxs" class="form-group">
+                                <label class="h4 text-primary" for="check">Kullanılacak Diller</label>
+                                <br>
+                                <input type="checkbox" name="Language" value="">İngilizce
+                                <br>
+                                <input type="checkbox" name="Language" value="">Almanca
+                                <br>
+                                <input type="checkbox" name="Language" value="">Türkçe
+                                <br>
+                                <input type="checkbox" name="Language" value="">İtalyanca
+                                <br>
+                                <input type="checkbox" name="Language" value="">Çince
+                                <br>
+                                <input type="checkbox" name="Language" value="">Fransızca
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-justify">
+
+                        <div class=" text-center">
+                            <label class="h4 text-primary" for="mesaj">MESAJ</label>
+                        </div>
+                        <div class="text-center">
+                            <textarea placeholder="Lütfen göndermek istediğiniz mesajı giriniz" class=" text-success center" name="mesaj" id="" cols="30" rows="10" ></textarea>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row ">
+
+                        <div class="col-3 ml-auto  ">
+                            <div class="form-group    ">
+                                <input id="gonder"  type="submit"  value="GONDER" name="Send">
+                            </div>
+                        </div>
+
+                        <div class="col-3 mr-auto ">
+                            <div class="form-group ">
+                                <input type="reset" onclick="" value="TEMİZLE" >
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </form>
+
+            </div>
+        </div>
+
+        <!-- javascript başlangıç-->
+
+        <script>
+           
+
+
+            function isValid(frm1) {
+
+
+            var name =frm1.names.value;
+            var sifre=frm1.passwords.value;
+                var mail=frm1.emails.value;
+                var mesaj1=frm1.mesaj.value;
+           
+           
+          if ( name==null || name=="" || name.length < 4 )
+    {
+        alert("Kullanıcı adı 4 karakterden az yada boş olamaz");
+        return false;
+    }
+    if ( sifre == null || sifre=="")
+    {
+        alert("Şifreyi boş bırakmayın");
+        return false;
+    }
+   
+    if ( mail== null || mail=="" )
+    {
+        alert("Geçerli email adresi girin");
+        return false;
+    }      
+                    if ( mesaj1== null || mesaj1=="" )
+    {
+        alert("LÜtfen mesaj giriniz");
+        return false;
+    }      
+                else{
+    return true;
+              
+          
+        }
+            }
+    </script>
+
+        <!-- javascript bitiş-->
+
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    </body>
+</div>
+
+</html>

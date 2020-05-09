@@ -1,0 +1,95 @@
+
+.form-group{
+    
+    margin: auto;
+    opacity: 0.8;
+  
+}
+.form-group label
+{
+    color: black;
+}
+
+#boxs{
+    
+font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: black;
+}
+
+.form-control:focus{
+    
+
+    border-color: red;
+
+   
+   
+
+}
+textarea{
+   
+  width: 50%;
+    
+ 
+} 
+textarea:placeholder-shown{text-align: center;}
+textarea:focus{
+    width: 100%;
+     transition: width .66s;
+}
+
+
+
+body{
+    margin-bottom: 20px;
+     background-color: lightblue;
+    
+}
+.bg{
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/28/22/11/message-in-a-bottle-3437294_1280.jpg);
+    
+    height: 100%;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    z-index: -1;
+    
+}
+
+.container{
+   font-size: 22px;
+   
+}
+h1{font-family: 'Anton', sans-serif;
+letter-spacing: 2px;}
+.navbar{
+    transition: padding 1s ;
+    opacity: 0.8;
+}
+
+nav:hover{padding: 30px;
+    opacity: 1;
+
+}
+.nav-item:hover {
+
+    
+    background-color: gray;
+
+
+
+}
+.button{background-color: green;}
+
+
+form{margin-top: 55px;}
+@media only screen and (max-width: 1000px) {
+
+   
+         a {font-size:20px;
+       
+             
+         }
+     
+       p{font-size:20px;}
+    
+}

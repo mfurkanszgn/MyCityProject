@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+     background-color: lightgrey;
+    
+}
+
+.carousel {
+    background-image: url(https://im.haberturk.com/2018/09/16/2144605_238b23f1a44f0e499926548d1ccca263_640x640.jpg);
+
+
+}
+
+img {
+    opacity: 1;
+    box-shadow:1px 1px 1px 1px beige;
+}
+
+.carousel-control-prev {
+    background-color: lightblue;
+
+    opacity: 0.1
+}
+
+.carousel-control-next {
+    background-color: rgba(161, 110, 94, 0.1);
+    opacity: 0.1
+}
+
+
+
+
+p {
+    font-family: 'Open Sans Condensed', sans-serif;
+color:black;
+}
+
+
+
+.card {
+
+    border-radius: 10px;
+    margin-bottom: 6px;
+    background-color:lightblue;
+    box-shadow:6px 6px 6px 6px gray;
+   display: flex;
+flex-direction: row-reverse;
+flex-wrap: wrap;
+margin-bottom:20px;
+    
+}
+
+.card:hover {
+
+    border-color: black;
+
+
+}
+
+.card img {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+
+    .carousel-item img {
+        height: 300px;
+        max-width: 540px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+
+     .carousel-item  img {
+        height: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+
+
+
+  
+
+
+
+      .carousel-item img {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+      .carousel-item img {
+        height: 200px;
+    }
+}
+
+.navbar {
+   
+    padding-top: 0px;
+    margin: 0px;
+
+}
+
+
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    
+
+}
+
+
+.card-link:hover {
+
+
+    margin: 10px;
+    font-size: 14px;
+
+}
+
+.carousel img {
+    width: 100%;
+    max-width: 540px;
+    padding: 4px;
+   
+}
+.carousel img:hover {
+    width: 100%;
+    max-width: 540px;
+    padding: 0;
+   
+}
+h3 {
+    color: crimson;
+}
+.nav-item:hover {
+
+    
+    background-color: gray;
+
+
+
+}

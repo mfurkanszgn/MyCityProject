@@ -1,0 +1,64 @@
+  body {
+      padding: 0 ;
+      margin: 0;
+      background-color: darkcyan;
+
+  }
+
+  .jumbotron {
+      background-image: url(https://lh3.googleusercontent.com/proxy/l-uVXWvUqerROuBs_6-iGRI3gQFfWrzfeJkDvFanUldoNYd-vbQNXJKJHYRmY_ngxKMgiWInf4o99XA3tQ4PibGzBZ1Pb4dupaa9oclsBe604TBLDoNx7P0BhUlqtQg);
+      opacity: 0.8;
+      margin-bottom: 40px;
+
+
+  }
+
+
+  .container img 
+  {
+      max-height: auto;
+
+  }
+
+.navbar
+{
+    opacity: 0.9;
+  
+}
+.navbar:hover
+{
+    opacity: 1;
+}
+button
+{background color: yellow;
+    
+}
+
+
+.card
+{
+    background-color: lightcyan;
+    box-shadow:10px 10px 10px 10px white;
+}
+a{
+    color: darkslateblue;
+}
+a:hover
+{
+    color: blue;
+}
+footer a:hover
+{ padding: 2px;
+background-color: darkslateblue;
+color: white;
+    
+}
+
+.nav-item:hover {
+
+    padding: 0.3rem;
+    background-color: gray;
+
+
+
+}

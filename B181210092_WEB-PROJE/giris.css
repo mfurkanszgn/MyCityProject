@@ -1,0 +1,71 @@
+body
+{
+    background-image: url('https://images.pexels.com/photos/593322/pexels-photo-593322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: fill;
+    background-repeat: no-repeat;
+   
+    font-family: 'Numans', sans-serif;
+    object-fit: fill;
+}
+
+.card
+{
+    
+    height: auto;
+        margin-top: 10px;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.6)  !important; 
+}
+
+.d-flex
+{
+    margin-top: 1rem;
+}
+
+
+.container
+{
+   
+    align-content: center;
+}
+
+.h2,label
+{color: white;
+font-size: 30px;
+    
+ }
+
+
+
+.input-group-mail,.input-group-password{
+  
+  display: inline;
+padding: 10px;
+    padding-bottom: 0;
+    background-color: yellow;
+color: black;
+border:0 !important;
+}
+@media only screen and (max-width: 1400px) {
+
+  
+    p{font-size: 2.5rem;}
+ 
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+        p{font-size: 3rem;}
+      
+         
+}
+
+@media only screen and (max-width: 800px) {
+
+    
+        
+}
+
+
